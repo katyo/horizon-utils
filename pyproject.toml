@@ -1,0 +1,17 @@
+[project]
+name = "horizon-utils"
+version = "0.1.0"
+description = "Useful Horizon-EDA utilities"
+license = {text = "MIT License"}
+readme = "README.md"
+dependencies = [
+  "pypdf",
+  #"horizon",
+]
+
+[project.scripts]
+horizon-brd2tpl = "brd2tpl:main"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
