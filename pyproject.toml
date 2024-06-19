@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-horizon-brd2tpl = "brd2tpl:main"
+horizon-brd2tpl = "horizon_utils.brd2tpl:main"
 
 [build-system]
 requires = ["setuptools", "setuptools-scm"]
